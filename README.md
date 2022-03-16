@@ -2,6 +2,10 @@
 
 After hearing that Swift Playgrounds could publish apps directly to the AppStore, I was intrigued to try that out.  So I downloaded Playgrounds to my iPad and started trying to build something.  I wanted something fairly straightforward but something that would still give me a chance to try out different UIs.  So as a first go, I decided to try a riff on a Pokedex - which my kids have been playing a lot of lately.
 
+### Demo
+https://user-images.githubusercontent.com/7440845/158646095-51dcf518-d5eb-4476-9f25-e575094ae40e.mp4
+
+
 ## Assets
 One important thing for something like this is assets.  I was able to find a few repos that provided a collection of assets. [This repo](https://github.com/fanzeyi/pokemon.json) in particular ended up being my starting spot as the assets were all named to correspond to an ID which made lookups easier.  It was missing about 100 or so which I added to my project from various locations.
 

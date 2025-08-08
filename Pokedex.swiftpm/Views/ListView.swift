@@ -28,6 +28,7 @@ struct PokemonListView: View {
                     NavigationLink(destination:DetailsView(pkItem: pokemon) ) {
                         HStack {
                             PokemonCircleView(pokemonId: pokemon.id)
+                            Text("#\(String(format: "%04d", pokemon.id))")
                             Text(pokemon.name.english)
                                 .font(.headline)
                         }
